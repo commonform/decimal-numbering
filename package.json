@@ -1,0 +1,37 @@
+{
+  "name": "decimal-numbering",
+  "description": "number hierarchical document parts like \"1.5.3\"",
+  "version": "1.0.0",
+  "author": {
+    "name": "Kyle E. Mitchell",
+    "email": "kyle@kemitchell.com",
+    "url": "http://kemitchell.com/"
+  },
+  "dependencies": {
+    "lower-alpha": "1.x"
+  },
+  "devDependencies": {
+    "check-versions": "1.x",
+    "jscs": "^1.12.0",
+    "jshint": "^2.7.0",
+    "literate-assertions": "0.1.x"
+  },
+  "keywords": [
+    "documents",
+    "enumeration",
+    "heading",
+    "lists",
+    "numbering",
+    "outline"
+  ],
+  "license": "Apache-2.0",
+  "main": "decimal-numbering.js",
+  "repository": "commonform/decimal-numbering.js",
+  "scripts": {
+    "check": "check-versions --check-module",
+    "lint": "jshint decimal-numbering.js && jscs decimal-numbering.js",
+    "pre-commit": "npm run lint && npm run check && npm run test",
+    "test": "literate-assertions < README.md | sed \"s!'decimal-numbering'!'./'!g\" | node",
+    "travis-ci": "npm run pre-commit"
+  }
+}
