@@ -1,7 +1,7 @@
 {
   "name": "decimal-numbering",
   "description": "number hierarchical document parts like \"1.5.3\"",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": {
     "name": "Kyle E. Mitchell",
     "email": "kyle@kemitchell.com",
