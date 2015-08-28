@@ -26,7 +26,7 @@
   ],
   "license": "Apache-2.0",
   "main": "decimal-numbering.js",
-  "repository": "commonform/decimal-numbering.js",
+  "repository": "commonform/decimal-numbering",
   "scripts": {
     "check": "check-versions --check-module",
     "lint": "jshint decimal-numbering.js && jscs decimal-numbering.js",
