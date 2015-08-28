@@ -11,7 +11,8 @@
     "lower-alpha": "1.x"
   },
   "devDependencies": {
-    "literate-assertions": "0.1.x"
+    "defence-cli": "~1.0.1",
+    "replace-require-self": "~1.0.0"
   },
   "keywords": [
     "documents",
@@ -25,7 +26,7 @@
   "repository": "commonform/decimal-numbering",
   "scripts": {
     "pre-commit": "npm run test",
-    "test": "literate-assertions < README.md | sed \"s!'decimal-numbering'!'./'!g\" | node",
+    "test": "defence README.md | replace-require-self | node",
     "travis-ci": "npm run pre-commit"
   }
 }
