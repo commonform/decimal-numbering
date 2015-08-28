@@ -1,6 +1,6 @@
 var alpha = require('lower-alpha');
 
-module.exports = function(numbering) {
+module.exports = function(numbering, shortForm) {
   return numbering
     .map(function(component) {
       var element = component.element;
@@ -10,7 +10,8 @@ module.exports = function(numbering) {
         element.number;
     })
     .join('.')
-    .toUpperCase();
+    .toUpperCase() +
+    ( shortForm ? '.' : '' );
 };
 
 module.exports.version = '1.0.0';
