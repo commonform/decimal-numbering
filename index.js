@@ -13,5 +13,3 @@ module.exports = function(numbering, shortForm) {
     .toUpperCase() +
     ( shortForm ? '.' : '' );
 };
-
-module.exports.version = '1.0.0';
