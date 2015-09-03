@@ -8,7 +8,7 @@ assert.deepEqual(
   decimal(
     [ { series:  { number: 1, of: 2 },
         element: { number: 1, of: 1 } } ]),
-  'A-1')
+  'Section A-1')
 
 assert.deepEqual(
   decimal(
@@ -20,7 +20,7 @@ assert.deepEqual(
         element: { number: 1, of: 1 } },
       { series:  { number: 1, of: 1 },
         element: { number: 1, of: 1 } } ]),
-  '1.1.1.1')
+  'Section 1.1.1.1')
 
 assert.deepEqual(
   decimal(

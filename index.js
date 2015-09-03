@@ -2,6 +2,7 @@ var alpha = require('lower-alpha')
 
 module.exports = function(numbering, shortForm) {
   return (
+    ( shortForm ? '' : 'Section ' ) +
     numbering
       .map(function(component) {
         var element = component.element
