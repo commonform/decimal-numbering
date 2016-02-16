@@ -11,8 +11,8 @@
     "lower-alpha": "^2.0.0"
   },
   "devDependencies": {
-    "defence-cli": "~1.0.1",
-    "replace-require-self": "~1.0.0"
+    "defence-cli": "^1.0.1",
+    "replace-require-self": "^1.0.0"
   },
   "keywords": [
     "documents",
