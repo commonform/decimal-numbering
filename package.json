@@ -8,7 +8,7 @@
     "url": "http://kemitchell.com/"
   },
   "dependencies": {
-    "lower-alpha": "1.x"
+    "lower-alpha": "^2.0.0"
   },
   "devDependencies": {
     "defence-cli": "~1.0.1",
