@@ -21,8 +21,6 @@
   "license": "Apache-2.0",
   "repository": "commonform/decimal-numbering",
   "scripts": {
-    "pre-commit": "npm run test",
-    "test": "defence README.md | replace-require-self | node",
-    "travis-ci": "npm run pre-commit"
+    "test": "defence README.md | replace-require-self | node"
   }
 }
