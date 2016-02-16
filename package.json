@@ -10,6 +10,7 @@
     "defence-cli": "^1.0.1",
     "replace-require-self": "^1.0.0"
   },
+  "homepage": "https://commonform.github.io",
   "keywords": [
     "documents",
     "enumeration",
