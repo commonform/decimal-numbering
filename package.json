@@ -8,7 +8,8 @@
   },
   "devDependencies": {
     "defence-cli": "^1.0.1",
-    "replace-require-self": "^1.0.0"
+    "replace-require-self": "^1.0.0",
+    "standard": "^8.0.0-beta.5"
   },
   "files": [
     "LICENSE",
@@ -28,6 +29,6 @@
   "license": "Apache-2.0",
   "repository": "commonform/decimal-numbering",
   "scripts": {
-    "test": "defence README.md | replace-require-self | node"
+    "lint": "standard"
   }
 }
