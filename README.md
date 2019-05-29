@@ -1,4 +1,6 @@
-Exports a single function of an [abstract numbering](https://npmjs.com/package/abstract-numbering) to a string.
+# decimal-numbering
+
+number hierarchical document parts like \"Section 1.5.3\"
 
 ```javascript
 var decimal = require('decimal-numbering')
