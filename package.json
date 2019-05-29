@@ -30,6 +30,7 @@
   "license": "BlueOak-1.0.0",
   "repository": "commonform/decimal-numbering",
   "scripts": {
-    "lint": "standard-markdown README.md && standard"
+    "lint": "standard-markdown README.md && standard",
+    "test": "defence -i javascript README.md | replace-require-self | node"
   }
 }
