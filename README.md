@@ -4,7 +4,7 @@ Exports a single function of an [abstract numbering](https://npmjs.com/package/a
 var decimal = require('decimal-numbering')
 var assert = require('assert')
 
-assert.deepEqual(
+assert.deepStrictEqual(
   decimal([
     {
       series: { number: 1, of: 2 },
@@ -14,7 +14,7 @@ assert.deepEqual(
   'Section A-1'
 )
 
-assert.deepEqual(
+assert.deepStrictEqual(
   decimal([
     {
       series: { number: 28, of: 28 },
@@ -24,7 +24,7 @@ assert.deepEqual(
   'Section AB-1'
 )
 
-assert.deepEqual(
+assert.deepStrictEqual(
   decimal([
     {
       series: { number: 1, of: 1 },
@@ -46,7 +46,7 @@ assert.deepEqual(
   'Section 1.1.1.1'
 )
 
-assert.deepEqual(
+assert.deepStrictEqual(
   decimal(
     [
       {
