@@ -18,7 +18,7 @@ assert.deepStrictEqual(
   decimal([
     {
       series: { number: 28, of: 28 },
-      element: { number: 1,  of: 1 }
+      element: { number: 1, of: 1 }
     }
   ]),
   'Section AB-1'
