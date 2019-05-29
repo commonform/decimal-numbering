@@ -13,9 +13,6 @@
     "standard-markdown": "^5.0.1"
   },
   "files": [
-    "LICENSE",
-    "NOTICE",
-    "README.md",
     "index.js"
   ],
   "homepage": "https://commonform.github.io",
