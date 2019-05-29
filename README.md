@@ -2,6 +2,8 @@
 
 number hierarchical document parts like \"Section 1.5.3\"
 
+decimal-numbering is part of the [abstract-numbering](https://www.npmjs.com/search?q=keywords:abstract-numbering) family of packages.
+
 ```javascript
 var decimal = require('decimal-numbering')
 var assert = require('assert')
