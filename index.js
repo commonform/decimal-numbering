@@ -2,7 +2,7 @@ var alpha = require('lower-alpha')
 
 module.exports = function decimal (numbering, shortForm) {
   return (
-    (shortForm ? '' : 'Section ') +
+    (shortForm ? '' : 'Section\u00a0') +
     numbering
       .map(function (component) {
         var element = component.element

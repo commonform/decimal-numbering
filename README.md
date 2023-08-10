@@ -1,6 +1,6 @@
 # decimal-numbering
 
-number hierarchical document parts like \"Section 1.5.3\"
+number hierarchical document parts like "Section 1.5.3"
 
 decimal-numbering is part of the [abstract-numbering](https://www.npmjs.com/search?q=keywords:abstract-numbering) family of packages.
 
@@ -15,7 +15,7 @@ assert.deepStrictEqual(
       element: { number: 1, of: 1 }
     }
   ]),
-  'Section A-1'
+  'Section\u00a0A-1'
 )
 
 assert.deepStrictEqual(
@@ -25,7 +25,7 @@ assert.deepStrictEqual(
       element: { number: 1, of: 1 }
     }
   ]),
-  'Section AB-1'
+  'Section\u00a0AB-1'
 )
 
 assert.deepStrictEqual(
@@ -47,7 +47,7 @@ assert.deepStrictEqual(
       element: { number: 1, of: 1 }
     }
   ]),
-  'Section 1.1.1.1'
+  'Section\u00a01.1.1.1'
 )
 
 assert.deepStrictEqual(
